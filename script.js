@@ -1,11 +1,11 @@
 const canTrig = CSS.supports('(top: calc(sin(1) * 1px))');
 const HEADING = document.querySelector('h1');
 
-const OPTIONS = {
-  SPACING: 1,
-  SIZE: 1,
-  TEXT: 'Texto circular entreunosyceros.net • ' };
-
+const OPTIONS = { 
+	SPACING: 1,
+	SIZE: 0.8,
+	TEXT: 'Texto circular • made in entreunosyceros.net • '
+};
 
 const onUpdate = () => {
   // Crear el texto para el círculo
